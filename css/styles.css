@@ -1,0 +1,150 @@
+@charset"utf-8";
+
+/*common*/
+
+body{
+    font-size: 14px;
+    font-family:verdana,sans-serif;
+    margin:0;
+    padding:0;
+    color:#333;
+    background: #f8f8f8;;
+}
+
+p{
+    line-height:2;
+}
+container{
+    width:90%
+    /*backgroun-color:yellow*/
+    margin:0 auto;
+}
+section{
+    padding:60px;
+}
+section h2{
+    text-align:center;
+    margin:0 0 60px;
+}
+section:nth-child(even){
+    background-color: #fff;
+}
+/*header*/
+#menu{
+    position:absolute;
+    z-index: 2;
+    top:0;
+    right:100px;
+    color:#fff;
+    background:#4c81e9;
+    padding:8px;
+    box-sizing:border-box;
+    width:180px;
+    min-height:100%;
+    transition:.4s;
+}
+/*medium*/
+@media(min-width:570px){
+body{
+    background: skyblue;
+}
+
+}
+p{
+    width:0 auto;
+}
+/*header*/
+.header-mobile-menu{
+    fload:right;
+    font: size 24px;cursor:pointer;
+    cursor: pointer;
+}
+/*medium*/
+ @media (min-width:570px){
+ body{
+ background :skyblue;
+
+ .header-mobile-menu{
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+ }
+
+ /*features*/
+
+ .features.item{
+    margin-bottom: 0;
+ }
+
+    .new.item{
+        text-align: center;
+    }
+    .news p{
+        text-align: left;
+    }
+    .new.item{
+        margin-bottom: 60px;
+    }
+    .new.item:last-child{
+        margin-botton:0;
+    }
+    /*medium*/
+
+    @media(min-width: 570px){
+        body{
+            backgroud:skyblue;
+        }
+     }
+     /*large*/
+     /*how-to-use iframe*/
+     .how-to-use if rame {
+     width: 100%;
+height: auto;
+}
+  /*footer*/
+
+  footer{
+    text-align: center;
+    color:#ccc;
+    padding:60px 0;
+  }
+  /*medium*/
+  @media (min-width:570px){
+
+ body}
+    background:skyblue;
+ }
+}
+.conteiner{
+    width: 90%;
+    margin:0 auto;
+}
+section{
+    padding:69px 0;
+
+    setion h2{
+        text-align: center;
+        margin:0 0 60px;
+
+    }
+    /*body{
+    backgroud:skyblue:
+    {*/
+    .features p{
+        width: 45%;
+    }
+    .features img {
+        width: 50%;
+    }
+    .pull-right{
+        float:right;
+        padding-left:5%
+    }
+    .puss-left{
+        fload:left;
+        padding-right: 5%;
+    }
+    .features.item{
+        overflow:hidden;
+    }
+}
